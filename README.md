@@ -1,0 +1,3 @@
+# Lightweight React/Redux Project Skeleton
+
+...
