@@ -1,7 +1,10 @@
-import webpack from 'webpack';
-import path from 'path';
+const webpack = require('webpack');
+const path = require('path');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-export default {
+module.exports = {
+  name: 'client',
+  mode: 'development',
   entry: './app/index.js',
   output: {
     path: path.join(__dirname, 'build'),
@@ -27,11 +30,11 @@ export default {
   },
   target: 'web',
   devServer: {
-    historyApiFallback: true,
-    contentBase: './',
+    contentBase: path.join(__dirname, 'build'),
     watchOptions: {
       aggregateTimeout: 300,
       poll: 1000,
     },
   },
+  plugins: [new CopyWebpackPlugin([{from: './public', to: '.'}])],
 };

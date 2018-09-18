@@ -1,12 +1,14 @@
 import React, {Component} from 'react';
 
 class App extends Component {
+  constructor(props) {
+    super(props);
+  }
+
   render() {
     return (
       <div>
-        <header>
-          <h1>Hello world!</h1>
-        </header>
+        <h1>Hello world!</h1>
       </div>
     );
   }
