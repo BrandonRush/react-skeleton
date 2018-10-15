@@ -3,14 +3,16 @@ FROM node:10
 # Set a working directory
 WORKDIR /usr/src/app
 
-COPY ./build/package.json .
-COPY ./build/yarn.lock .
+COPY ./package.json .
+COPY ./yarn.lock .
 
 # Install Node.js dependencies
 RUN yarn install --production --no-progress
 
 # Copy application files
 COPY ./build .
+COPY ./server .
+COPY ./server.js .
 
 # Run the container under "node" user by default
 USER node

@@ -1,6 +1,7 @@
 const webpack = require('webpack');
 const path = require('path');
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   name: 'client',
@@ -9,7 +10,8 @@ module.exports = {
   output: {
     path: path.join(__dirname, 'build'),
     publicPath: '/',
-    filename: 'bundle.js',
+    // filename: 'index.js',
+    filename: '[name].[contenthash].js',
   },
   module: {
     rules: [
@@ -37,9 +39,10 @@ module.exports = {
     },
   },
   plugins: [
-    new CopyWebpackPlugin([
-      {from: './src/public', to: './public'},
-      {from: './src/server.js', to: './public'},
-    ]),
+    new HtmlWebpackPlugin({
+      title: 'Hello World!',
+      filename: 'index.html',
+    }),
+    new CopyWebpackPlugin([{from: './assets'}]),
   ],
 };
