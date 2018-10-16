@@ -40,4 +40,6 @@
 └── yarn.lock
 ```
 
+#### Features parts from https://www.reactstarterkit.com
+
 ...
