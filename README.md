@@ -1,5 +1,7 @@
 # Lightweight React/Redux Project Skeleton
 
+## A lightweight boilerplate for React projects that features Redux, express, jest, and Docker integration.
+
 ```bash
 /
 ├── assets/
