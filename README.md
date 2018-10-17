@@ -1,6 +1,6 @@
 # Lightweight React/Redux Project Skeleton
 
-## A lightweight boilerplate for React projects that features Redux, express, jest, and Docker integration.
+## A lightweight boilerplate for React projects. Features Redux, express, jest, and Docker integration.
 
 ```bash
 /
@@ -25,7 +25,6 @@
 │   │   └── index.js
 │   └── models/
 │       └── index.js
-├── test/
 ├── .babelrc
 ├── .eslintrc.js
 ├── .gitattributes
