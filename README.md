@@ -6,6 +6,7 @@
 /
 ├── assets/
 │   ├── favicon.ico
+│   ├── index.html
 │   └── manifest.json
 ├── build/
 ├── node_modules/
@@ -26,7 +27,7 @@
 │   └── models/
 │       └── index.js
 ├── .babelrc
-├── .eslintrc.js
+├── .eslintrc.json
 ├── .gitattributes
 ├── .gitignore
 ├── .travis.yml

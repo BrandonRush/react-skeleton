@@ -42,7 +42,8 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Hello World!',
       filename: 'index.html',
+      favicon: './assets/favicon.ico',
+      template: 'assets/index.html',
     }),
-    new CopyWebpackPlugin([{from: './assets'}]),
   ],
 };
