@@ -1,6 +1,6 @@
 ## Lightweight React WebApp Skeleton
 
-A slim boilerplate for React projects. Features express, jest, eslint, and Docker integration.
+A slim boilerplate for React projects. Features [express]{https://github.com/expressjs/express}, [jest]{https://github.com/facebook/jest}, [eslint]{https://github.com/eslint/eslint}, and [Docker]{https://github.com/docker} integration.
 
 ### Features
 
@@ -18,7 +18,7 @@ Test with jest using `yarn run jest`.
 
 ### Webpack Dev Server
 
-Start `webpack-dev-server` with `yarn run start:dev`.
+Start `[webpack-dev-server{https://github.com/webpack/webpack-dev-server}]` with `yarn run start:dev`.
 
 ## Project Structure
 
