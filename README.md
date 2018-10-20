@@ -18,7 +18,7 @@ Test with jest using `yarn run jest`.
 
 ### Webpack Dev Server
 
-Start `[webpack-dev-server]( https://github.com/webpack/webpack-dev-server )` with `yarn run start:dev`.
+Start [webpack-dev-server]( https://github.com/webpack/webpack-dev-server ) with `yarn run start:dev`.
 
 ## Project Structure
 
