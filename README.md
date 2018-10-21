@@ -20,35 +20,29 @@ Test with jest using `yarn run jest`.
 
 Start [webpack-dev-server](https://github.com/webpack/webpack-dev-server) with `yarn run start:dev`.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+## Getting started
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+To install this project, you should have Node.js, yarn, and Docker installed.
 
-```
-Give examples
-```
+- [Node.js](https://nodejs.org)
+- [yarn](https://yarnpkg.com/en/)
+- [Docker](https://docker.com)
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Enter the directory you want to start the project in, and clone the source.
 
 ```
-Give the example
+git clone https://github.com/BrandonRush/react-skeleton.git
 ```
 
-And repeat
+Install all dependencies with yarn.
 
 ```
-until finished
+yarn install
 ```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Project Structure
 
@@ -83,6 +77,7 @@ End with an example of getting some data out of the system or using it for a lit
 ├── .travis.yml
 ├── Dockerfile
 ├── jest.config.js
+├── LICENSE.md
 ├── package.json
 ├── README.md
 ├── server.js
@@ -96,8 +91,10 @@ End with an example of getting some data out of the system or using it for a lit
 
 ## Built With
 
-- [React](https://github.com/facebook/react) - JavaScript library for building user interfaces 
+- [React](https://github.com/facebook/react) - JavaScript library for building user interfaces
 - [Express.js](https://github.com/expressjs/express) - Web application framework for Node.js
+- [Webpack](https://github.com/webpack/webpack) - A module bundler for JavaScript
+- [Babel](https://github.com/babel/babel) - A compiler and transpiler for JavaScript
 - [yarn](https://github.com/yarn/yarn) - Dependency Management
 
 ## Authors
@@ -110,4 +107,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-- Features parts from https://www.reactstarterkit.com
+- Inspired partly by https://www.reactstarterkit.com
