@@ -1,14 +1,15 @@
 {
-  "plugins": ["react", "jest", "security"],
+  "plugins": ["react", "jest", "security", "jsx-a11y"],
   "extends": [
     "eslint:recommended",
     "plugin:node/recommended",
     "plugin:security/recommended",
     "plugin:jest/recommended",
-    "plugin:react/recommended"
+    "plugin:react/recommended",
+    "plugin:jsx-a11y/recommended"
   ],
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 2018,
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
