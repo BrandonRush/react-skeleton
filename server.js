@@ -1,8 +1,8 @@
-import express from 'express';
-import path from 'path';
-import React from 'react';
+var express = require('express');
+var path = require('path');
 
-import Html from './server/components/Html';
+var app = express();
+app.use(express.static('build'));
 
-const app = express();
-app.use(express.static(path.resolve(__dirname, 'public')));
+const port = 3000;
+app.listen(port, () => console.log(`Example app listening on port ${port}!`));
